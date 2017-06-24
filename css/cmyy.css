@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+@font-face {
+    font-family: chaimi;
+    src: url("../fonts/xindexingcao57.ttf");
+}
+header{
+    width: 6.4rem;
+    height: 0.82rem;
+    background: #706c07;
+}
+header h2{
+    font-weight: normal;
+    font-size: 0.36rem;
+    font-family: chaimi;
+    color: white;
+    text-align: center;
+    line-height: 0.82rem;
+}
+.banner{
+    width: 6.4rem;
+    height: 3.39rem;
+    overflow: hidden;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner .nu{
+    width: 25rem;
+    transition: all 0.5s linear;
+}
+.banner .nu:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.banner .nu li{
+    float: left;
+    width: 6.4rem;
+    height: 3.39rem;
+}
+.banner .dh{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.55rem;
+    background: rgba(0,0,0,0.3);
+}
+.banner .dh:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.banner .dh p{
+    font-family: 黑体;
+    font-size: 0.3rem;
+    color: white;
+    float: left;
+    line-height: 0.55rem;
+    padding-left: 0.28rem;
+}
+.banner .dh .mu{
+    float: right;
+    font-size: 0;
+    margin-right: 0.2rem;
+    padding-top: 0.2rem;
+}
+.banner .dh .mu:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.banner .dh .mu li{
+    float: left;
+    margin-right: 0.11rem;
+    background: white;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+}
+.dian{
+    background: #9a141c !important;
+}
+
+/*main*/
+.main{
+    background: url("../images/main_bg.gif");
+    background-size: 100% 100%;
+    width: 6.4rem;
+    height: 100%;
+}
+.main ul:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.main ul li{
+    float: left;
+    width: 2.12rem;
+    height: 2.12rem;
+    border-right: 0.01rem solid #d2d0d0;
+    border-bottom: 0.01rem solid #d2d0d0;
+}
+.main ul li img{
+    width: 1.21rem;
+    height: 1.21rem;
+    margin: 0.28rem auto 0.15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

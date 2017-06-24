@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background: url("../images/index_bg.jpg");
+    background-size: 100% 100%;
+}
+.logo{
+    width: 2.41rem;
+    height: 1.36rem;
+    margin: 2.05rem auto;
+    animation: movelogo 0.5s linear;
+}
+.logo img{
+    width: 100%;
+}
+@keyframes movelogo {
+    0%{transform: translateY(-3rem)}
+    100%{transform: translateY(0rem)}
+}
+
+
